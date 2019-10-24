@@ -16,13 +16,13 @@
         "webpack-merge": "^4.2.2"
     },
     "dependencies": {
-        "@here/harp-font-resources": "^0.2.4",
-        "@here/harp-geojson-datasource": "^0.10.0",
-        "@here/harp-geoutils": "^0.10.0",
-        "@here/harp-map-controls": "^0.10.0",
-        "@here/harp-map-theme": "^0.10.0",
-        "@here/harp-mapview": "^0.10.0",
-        "@here/harp-omv-datasource": "^0.10.0",
-        "three": "^0.109.0"
+        "@here/harp-font-resources": "latest",
+        "@here/harp-geojson-datasource": "latest",
+        "@here/harp-geoutils": "latest",
+        "@here/harp-map-controls": "latest",
+        "@here/harp-map-theme": "latest",
+        "@here/harp-mapview": "latest",
+        "@here/harp-omv-datasource": "latest",
+        "three": "latest"
     }
 }
