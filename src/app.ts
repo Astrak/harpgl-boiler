@@ -19,12 +19,8 @@ const omvDataSource = new OmvDataSource({
     maxZoomLevel: 17,
     authenticationCode: "AGln99HORnqL1kfIQtsQl70"
 });
-
 map.addDataSource(omvDataSource);
 
 const controls = new MapControls(map);
 const ui = new MapControlsUI(controls);
 map.canvas.parentElement!.appendChild(ui.domElement);
-
-const NY = new GeoCoordinates(40.71, -74.007);
-map.setCameraGeolocationAndZoom(NY, 3.2);
