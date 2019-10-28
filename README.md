@@ -5,22 +5,19 @@ Boilerplate to get quickly started with the [harp.gl](https://www.harp.gl/) map 
 First clone and enter the new folder:
 
 ```
-git clone git@github.com:Astrak/harpgl-boiler.git
-cd harpgl-boiler
+git clone git@github.com:Astrak/harpgl-boiler.git && cd harpgl-boiler
 ```
 
 Then with yarn:
 
 ```
-yarn
-yarn start
+yarn && yarn start
 ```
 
 or with npm:
 
 ```
-npm i
-npm start
+npm i && npm start
 ```
 
 => The browser opens on a working harp instance.
